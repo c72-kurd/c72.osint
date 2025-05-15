@@ -7,7 +7,6 @@ import random
 # Initialize colorama
 init(autoreset=True)
 
-# All-Red C72 ASCII Banner
 BANNER = f"""
 {Fore.RED}█████████  ██████████  ████████ 
 {Fore.RED}███░░░░░███░███░░░░███ ███░░░░███
@@ -23,7 +22,7 @@ BANNER = f"""
 {Fore.RED}╚══════════════════════════════════╝
 """
 
-# Fun loading messages
+
 LOADING_MSGS = [
     "tawaw bw 🔥...",
     "tawaw bw 🔥...",
@@ -41,7 +40,7 @@ FUN_FACTS = {
      
 
 PLATFORMS = {
-    # Tier 1: Top 50 Social Media (Most Popular)
+   
     "Facebook": "https://www.facebook.com/{}",
     "Instagram": "https://www.instagram.com/{}",
     "Twitter/X": "https://twitter.com/{}",
@@ -91,7 +90,7 @@ PLATFORMS = {
     "Blogger": "https://{}.blogspot.com",
     "WordPress": "https://{}.wordpress.com",
 
-    # Tier 2: 50 Tech/Developer Platforms
+    
     "GitHub": "https://github.com/{}",
     "GitLab": "https://gitlab.com/{}",
     "Bitbucket": "https://bitbucket.org/{}",
@@ -142,7 +141,7 @@ PLATFORMS = {
     "ACM": "https://dl.acm.org/profile/{}",
     "arXiv": "https://arxiv.org/user/{}",
 
-    # Tier 3: 50 Niche/Other Platforms
+  
     "Wikipedia": "https://en.wikipedia.org/wiki/User:{}",
     "IMDb": "https://imdb.com/user/{}",
     "Goodreads": "https://goodreads.com/{}",
@@ -225,9 +224,9 @@ def run_scan(username):
     print_banner()
     print(f"{Fore.CYAN}🚀 scanning bo: {Fore.YELLOW}{username}{Fore.RESET}")
     
-    # 30-second waiting session
+
     print(f"\n{Fore.RED}⚠ scan daste pekrd...")
-    countdown_timer(5)
+    countdown_timer(15)
     
     print(f"\n{Fore.WHITE}{random.choice(LOADING_MSGS)}\n")
     
