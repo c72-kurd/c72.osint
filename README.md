@@ -13,9 +13,9 @@ sudo apt install python
 
 git clone https://github.com/c72-kurd/c72.osint
 
-cd c72-kurd
+cd c72.osint
 
-python c72.osint
+python c72.osint.py
 
 ---------------------------------------
 bo (TERMUX)
@@ -28,6 +28,6 @@ apt install python
 
 git clone https://github.com/c72-kurd/c72.osint
 
-cd c72-kurd
+cd c72.osint
 
-python c72.osint
+python c72.osint.py
